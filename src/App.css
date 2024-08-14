@@ -1,0 +1,84 @@
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #352f2f;
+}
+
+.logo-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.diamond {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  opacity: 0.8;
+}
+
+.box1 {
+  top: 17.5rem;
+  right: 0rem;
+  background-color: #5dacf7;
+  z-index: 1;
+}
+
+.box2 {
+  background-color: #a5d4a8;
+  top: 8.8rem;
+  rotate: 90deg;
+  right: 8.7rem;
+}
+
+.box3 {
+  right: 0;
+  background-color: #db8051;
+  z-index: 1;
+}
+
+.box4 {
+  bottom: 8.7rem;
+  left: 8.7rem;
+  background-color: #cac4ae;
+  rotate: 90deg;
+}
+
+.text-container {
+  position: absolute;
+  top: 82%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  rotate: 45deg;
+}
+
+.text {
+  transform: rotate(-45deg);
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 42px;
+}
+
+.and {
+  color: #ab755b;
+}
+
+.sub {
+  font-family: serif;
+  font-size: 16px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
